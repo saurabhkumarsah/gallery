@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: arial;
+ }
+body {
+    background-color: #ccd5ae;
+ }
+ul {
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+ }
+header ul li {
+    float: left;
+  }
+  
+  li a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .logo{
+    background-color: #fca311;
+  }
+
+/* Card Design */
+.item {
+    display: flex;
+    margin: 10px 0;
+ }
+.card {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: auto;
+    width: 32%;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card>p {
+    display: flex;
+  }
+  .card>p>button + button {
+    border-left: 1px solid white;
+  }
+  .card button {
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+  .card button img {
+    color: white;
+  }
+  
+  .card button:hover {
+    background-color: #fca311;
+    color: #000;
+    border: none;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .footer ul li {
+    margin: 10px 5px;
+    display: inline-block;
+    
+  }
+  .footer ul li a img {
+    width: 15px;
+    height: 15px;
+  }
+  .footer ul li a {
+    background-color: #fca311;
+    border-radius: 100%;
+    padding: 4px 8px;
+    font-size: 20px;
+  }
+  .footer h1 {
+    font-size: 40px;
+  }
